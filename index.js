@@ -40,6 +40,14 @@ app.get("/", (req, res) => {
               c: "l",
               iof: 50,
               premio: { comercial: 10, total: 15, a: "q", d: "r" },
+              terceiraCoberturas: [
+                {
+                  a: "x",
+                  c: "z",
+                  iof: 12,
+                  premio: { comercial: 18, total: 15, a: "q", d: "r" },
+                },
+              ],
             },
           ],
         },
